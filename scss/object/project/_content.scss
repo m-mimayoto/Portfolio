@@ -1,0 +1,261 @@
+.p-content--works{
+    margin-top: 40px;
+
+    h3{
+        text-align: center;
+        color: #144DA0;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    &--raisetech{
+        margin-top: 20px;
+
+        &__img{
+            height: 223px;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+            cursor: pointer;
+            filter: grayscale(100%);
+        }
+        
+        &__title{
+            color: #101841;
+            text-align: center;
+            font-family: Sitka Heading;
+            font-size: 20px;
+            margin-top: 15px;
+        }
+    }
+
+    &--hamburgermenu{
+        margin-top: 20px;
+
+        &__img{
+            height: 223px;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+            cursor: pointer;
+            filter: grayscale(100%);
+        }
+        &__title{
+            color: #101841;
+            text-align: center;
+            font-family: Sitka Heading;
+            font-size: 20px;
+            margin-top: 15px;
+        }
+    }
+}
+.p-content--works--raisetech:hover img{
+    filter: grayscale(0%);
+    transition: filter .5s;
+}
+.p-content--works--hamburgermenu:hover img{
+    filter: grayscale(0%);
+    transition: filter .5s;
+}
+
+.p-content--skills{
+    margin-top: 50px;
+
+    h3{
+        text-align: center;
+        color: #144DA0; 
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    &--html{
+        &__title{//skillsのtitleをconfigにする
+            color: #101841;
+            text-align: center;
+            font-family: Sitka Heading;
+            font-size: 20px;
+        }
+    
+    }
+
+        &--css{
+            &__title{
+                color: #101841;
+                text-align: center;
+                font-family: Sitka Heading;
+                font-size: 20px;
+            }
+    
+        }
+
+        &--sass{
+            &__title{
+                color: #101841;
+                text-align: center;
+                font-family: Sitka Heading;
+                font-size: 20px;
+            }
+            &__img{
+                width:91px;
+                height: 90px;
+            }
+        }
+
+        &--cssdesign{
+            &__title{
+                color: #101841;
+                text-align: center;
+                font-family: Sitka Heading;
+                font-size: 20px;
+            }
+          
+        }
+        &--wordpress{
+            &__title{
+                color: #101841;
+                text-align: center;
+                font-family: Sitka Heading;
+                font-size: 20px;
+            }
+           
+        }
+        &--git{
+            &__title{
+                color: #101841;
+                text-align: center;
+                font-family: Sitka Heading;
+                font-size: 20px;
+            }
+          
+        }
+        &--js{
+            &__title{
+                color: #101841;
+                text-align: center;
+                font-family: Sitka Heading;
+                font-size: 20px;
+            }
+        }
+
+        p{
+            font-family: BIZ UDP明朝;
+            font-size: 16px;
+            color: #101841;
+            line-height: 1.875;
+        }
+}
+
+.p-content--about{
+    margin-top: 40px;
+    position: relative;
+
+    h3{
+        text-align: center;
+        color: #144DA0;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    &__img{
+        cursor: pointer;
+        filter: grayscale(100%);
+    }
+    &__profile{
+        font-size: 20px;
+        color: #101841;
+        font-family: Sitka Heading;
+        margin-top: -105px;
+        padding-left: 75px;
+        position: absolute;
+    }
+
+    >p{
+        font-family: BIZ UDP明朝;
+        font-size: 16px;
+        color: #101841;
+        margin-top: 20px;
+        line-height: 1.875;
+    }
+}
+.p-content--about:hover img{
+    filter: grayscale(0%);
+    transition: filter .5s;
+}
+
+.p-content--price{
+    margin-top: 40px;
+
+    h3{
+        text-align: center;
+        color: #144DA0;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+}
+.p-content--pricetable{
+    &--coding{
+        text-align: center;
+
+        h4{
+            font-size: 20px;
+            color: #101841;
+            font-family: BIZ UDP明朝;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 16px;
+            color: #101841;
+            font-family: BIZ UDP明朝;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #101841;
+        }
+    }
+    &--wordpress{
+        text-align: center;
+
+        h4{
+            font-size: 20px;
+            color: #101841;
+            font-family: BIZ UDP明朝;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 16px;
+            color: #101841;
+            font-family: BIZ UDP明朝;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #101841;
+        }
+    }
+    &--note{
+        p{
+            font-size: 16px;
+            color: #101841;
+            font-family: BIZ UDP明朝;
+            line-height: 1.875;
+        }
+    }
+}
+
+.p-content--contact{
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+    h3{
+        text-align: center;
+        color: #144DA0;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 16px;
+        color: #101841;
+        font-family: BIZ UDP明朝;
+        line-height: 1.875;
+        text-align: center;
+    }
+}

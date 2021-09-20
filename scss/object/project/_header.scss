@@ -1,0 +1,92 @@
+.p-header__nav__list{
+
+    &--works>a{
+        color: #EDEDED;
+        font-family: Sitka Heading;
+        font-size: 20px;
+    }
+    &--works{
+       height: 60px;
+       padding: 22px 37px;
+    }
+    &--skills>a{
+        color: #EDEDED;
+        font-family: Sitka Heading;
+        font-size: 20px;
+    }
+    &--skills{
+       height: 60px;
+       padding: 22px 37px;
+    }
+    &--about>a{
+        color: #EDEDED;
+        font-family: Sitka Heading;
+        font-size: 20px;
+    }
+    &--about{
+       height: 60px;
+       padding: 22px 37px;
+    }
+    &--price>a{
+        color: #EDEDED;
+        font-family: Sitka Heading;
+        font-size: 20px;
+    }
+    &--price{
+       height: 60px;
+       padding: 22px 37px;
+    }
+    &--contact>a{
+        color: #EDEDED;
+        font-family: Sitka Heading;
+        font-size: 20px;
+    }
+    &--contact{
+       height: 60px;
+       padding: 22px 37px;
+    }
+}
+.p-header__nav__list--works:hover{
+    background-color: #EDEDED;
+}
+.p-header__nav__list--works:hover a{
+    color: #101841;
+}
+.p-header__nav__list--skills:hover{
+    background-color: #EDEDED;
+}
+.p-header__nav__list--skills:hover a{
+    color: #101841;
+}
+.p-header__nav__list--about:hover{
+    background-color: #EDEDED;
+}
+.p-header__nav__list--about:hover a{
+    color: #101841;
+}
+.p-header__nav__list--price:hover{
+    background-color: #EDEDED;
+}
+.p-header__nav__list--price:hover a{
+    color: #101841;
+}
+.p-header__nav__list--contact:hover{
+    background-color: #EDEDED;
+}
+.p-header__nav__list--contact:hover a{
+    color: #101841;
+}
+
+
+.p-header__title{
+    width: 305px;
+    display: flex;
+    h1{
+        color:#EDEDED;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Sitka Heading;
+        padding-top: 20px;
+        padding-left: 36px;
+    }
+}

@@ -1,0 +1,23 @@
+.p-footer{
+    &__nav{
+        &--home>a{
+            color: #EDEDED;
+            font-family: Sitka Heading;
+            font-size: 16px;
+        }
+
+        &--contact>a{
+            color: #EDEDED;
+            font-family: Sitka Heading;
+            font-size: 16px;
+        }
+    }
+
+    &__copyright{
+        text-align: center;
+        color: #EDEDED;
+        font-family: Sitka Heading;
+        font-size: 16px;
+        margin-top: 37px;
+    }
+}

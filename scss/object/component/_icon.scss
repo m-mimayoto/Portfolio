@@ -1,0 +1,44 @@
+.c-icon--contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+    &--twitter{
+        background-color: #fff;
+        border-radius:50%;
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        justify-content: center;
+    }
+    .fa-twitter{
+        color: #55ACEE;
+    }
+
+    &--facebook{
+        background-color: #fff;
+        border-radius:50%;
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        justify-content: center;
+    }
+    .fa-facebook{
+        color: #3B5998;
+    }
+
+    &--github{
+        background-color: #fff;
+        border-radius:50%;
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        justify-content: center;
+    }
+    .fa-github{
+        color: #000000;
+    }
+    .fab{
+        padding: 20px;
+    }
+}

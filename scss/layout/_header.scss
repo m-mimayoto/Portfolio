@@ -1,0 +1,27 @@
+.l-header{
+    position: fixed;
+    z-index: 10;
+    background-color: #101841;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-header__nav{
+    display: none;
+}
+.l-header__nav--open{
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color:#101841;
+
+    .l-header__nav__list{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.l-header__navblock{
+    width: 70px;
+}
