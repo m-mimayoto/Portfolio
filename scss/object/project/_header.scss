@@ -7,7 +7,8 @@
     }
     &--works{
        height: 60px;
-       padding: 22px 37px;
+       text-align: center;
+       padding-top: 22px;
     }
     &--skills>a{
         color: #EDEDED;
@@ -16,7 +17,8 @@
     }
     &--skills{
        height: 60px;
-       padding: 22px 37px;
+       text-align: center;
+       padding-top: 22px;
     }
     &--about>a{
         color: #EDEDED;
@@ -25,7 +27,9 @@
     }
     &--about{
        height: 60px;
-       padding: 22px 37px;
+       text-align: center;
+       padding-top: 22px;
+
     }
     &--price>a{
         color: #EDEDED;
@@ -34,7 +38,9 @@
     }
     &--price{
        height: 60px;
-       padding: 22px 37px;
+       text-align: center;
+       padding-top: 22px;
+
     }
     &--contact>a{
         color: #EDEDED;
@@ -43,7 +49,8 @@
     }
     &--contact{
        height: 60px;
-       padding: 22px 37px;
+       text-align: center;
+       padding-top: 22px;
     }
 }
 .p-header__nav__list--works:hover{
@@ -79,14 +86,32 @@
 
 
 .p-header__title{
-    width: 305px;
-    display: flex;
-    h1{
-        color:#EDEDED;
-        font-size: 30px;
-        font-weight: bold;
-        font-family: Sitka Heading;
-        padding-top: 20px;
-        padding-left: 36px;
-    }
+    position: absolute;
+    text-align: center;
+    color: rgba(237,237,237,.5);
+    font-size: 100px;
+    font-family: Sitka Heading;
+    line-height: 0.4;
+    top:100px
+}
+.p-header__subtitle{
+    position: absolute;
+    top: 250px;
+    color:#EDEDED;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Sitka Heading;
+    text-align: center;
+}
+
+.p-header__title--single{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Sitka Heading;
+    color: #EDEDED;
+    position: fixed;
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 0.85;
 }

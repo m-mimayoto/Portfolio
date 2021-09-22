@@ -1,15 +1,17 @@
 .l-hamburgerbtn--close{//ボタンが閉じている状態
     display: block;
-    width: 70px;
     height: 70px;
-    position: relative;
+    width: 70px;
+    position: fixed;
+    right: 0;
     cursor: pointer;/*カーソルリンクポインター*/
+    z-index: 100;
 }
 
     .l-hamburgerbtn-1{
         position: absolute;
         left: 15px;
-        background-color:#EDEDED;
+        background-color:#101841;
         width: 40px;
         height: 3px;
         top: 20px;
@@ -18,7 +20,7 @@
     .l-hamburgerbtn-2{
         position: absolute;
         left: 15px;
-        background-color:#EDEDED;
+        background-color:#101841;
         width: 40px;
         height: 3px;
         top: 35px;
@@ -27,7 +29,7 @@
     .l-hamburgerbtn-3{
         position: absolute;
         left: 15px;
-        background-color:#EDEDED;
+        background-color:#101841;
         width: 40px;
         height: 3px;
         top: 50px;
@@ -35,12 +37,14 @@
     }
 
 .l-hamburgerbtn--open{//ボタンが開いている状態
-    background-color: #EDEDED;
-    position: relative;
+    background-color: #101841;
+    position: fixed;
+    right: 0;
+    z-index: 100;
     .l-hamburgerbtn-1{
         top:35px;
         transform: rotate(45deg);
-        background-color: #101841;
+        background-color:#EDEDED;
     }
     .l-hamburgerbtn-2{
         display: none;
@@ -48,6 +52,6 @@
     .l-hamburgerbtn-3{
         top: 35px;
         transform: rotate(135deg);
-        background-color: #101841;
+        background-color:#EDEDED;
     }
 }

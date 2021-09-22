@@ -1,27 +1,38 @@
 .l-header{
-    position: fixed;
-    z-index: 10;
-    background-color: #101841;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
+    position: relative;
+    background-image: url(../img/top.jpeg);
+    min-height: 100vh;//画面サイズに合わせる
+    background-position: center top;
+    background-size: cover;
 }
 
 .l-header__nav{
     display: none;
 }
 .l-header__nav--open{
+    width: 100%;
+    height: 100%;
+    position: fixed;
     display: block;
-    position: absolute;
-    left: 0;
+    overflow: hidden;
+    z-index: 99;
     background-color:#101841;
 
     .l-header__nav__list{
         display: flex;
         flex-direction: column;
+        margin-top: 70px;
     }
 }
 
-.l-header__navblock{
-    width: 70px;
+.l-header--single::before{//三角
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 103px;
+    background-color: #101841;
+    transform: rotate(-15deg);
+    transform-origin: left bottom;
 }
