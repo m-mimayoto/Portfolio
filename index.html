@@ -19,11 +19,11 @@
     </haed>
     <body>
         <header class="l-header">
-            <div class="p-header__title"><!--左-->
-                <a href="#">
-                <h1>My Portfolio</h1>
-                </a>
-            </div>
+            <a href="#">
+            <h1 class="p-header__title">WEB<br>Design</h1>
+            <h2 class="p-header__subtitle">My Portfolio</h2>
+            </a>
+
             <div class="l-header__navblock"><!--右-->
                 <!--ハンバーガーメニュー-->
                 <div class="l-hamburgerbtn--close" style="display:block;">
@@ -41,24 +41,28 @@
                         <li class="p-header__nav__list--contact"><a href="">Contact</a></li>
                     </ul>
                 </nav>
-            </div>
+            </div><!--l-header__navblock-->
         </header>
 
         <main>
-            <section class="l-top">
-                <h2 class="p-top__title">WEB<br>Design</h2>
-            </section>
-
             <div class="l-content__waraper">
                 <section class="p-content--works">
                     <h3>Works</h3>
                     <figure class="p-content--works--raisetech">
+                        <a href="">
                         <img class="p-content--works--raisetech__img" src="./img/RaiseTech　PC.png" alt="RaiseTech模写課題画像">
-                        <figcaption class="p-content--works--raisetech__title">RaiseTech模写</figcaption>
+                        <div class="p-content--works--raisetech__mask">
+                            <figcaption class="p-content--works--raisetech__title">RaiseTech模写<br>詳細</figcaption>
+                        </div>
+                        </a>
                     </figure>
                     <figure class="p-content--works--hamburgermenu">
+                        <a href="">
                         <img class="p-content--works--hamburgermenu__img" src="./img/hamburgermenu.jpeg" alt="hamburgermenu課題画像">
-                        <figcaption class="p-content--works--hamburgermenu__title">hamburgerMenu</figcaption>
+                        <div class="p-content--works--hamburgermenu__mask">
+                            <figcaption class="p-content--works--hamburgermenu__title">hamburgerMenu<br>詳細</figcaption>
+                        </div>
+                        </a>
                     </figure>
                 </section>
 
