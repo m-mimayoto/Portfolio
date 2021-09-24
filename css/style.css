@@ -352,7 +352,7 @@ progress {
 .l-header__nav--open {
   width: 100%;
   height: 100%;
-  position: fixed;
+  position: absolute;
   display: block;
   overflow: hidden;
   z-index: 99;
@@ -388,7 +388,7 @@ progress {
   display: block;
   height: 70px;
   width: 70px;
-  position: fixed;
+  position: absolute;
   right: 0;
   cursor: pointer;
   /*カーソルリンクポインター*/
@@ -430,7 +430,7 @@ progress {
 
 .l-hamburgerbtn--open {
   background-color: #101841;
-  position: fixed;
+  position: absolute;
   right: 0;
   z-index: 100;
 }
@@ -489,6 +489,21 @@ progress {
   padding-top: 40px;
 }
 
+.l-contactform {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-contactform__item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .c-button--contact {
   display: block;
   background-color: #144DA0;
@@ -531,6 +546,18 @@ progress {
   color: #EDEDED;
   font-family: BIZ UDP明朝;
   font-size: 16px;
+}
+
+.c-button--contactform {
+  border-radius: 30px;
+  margin: 32px auto 70px auto;
+  height: 59px;
+  width: 170px;
+  display: block;
+  background: #144DA0;
+  color: #EDEDED;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .c-icon--contact {
@@ -697,18 +724,18 @@ progress {
 .p-header__title {
   position: absolute;
   text-align: center;
-  color: rgba(237, 237, 237, 0.5);
+  color: #EDEDED;
   font-size: 100px;
   font-family: Sitka Heading;
   line-height: 0.4;
-  top: 100px;
+  top: 40%;
 }
 
 .p-header__subtitle {
   position: absolute;
-  top: 250px;
+  top: 58%;
   color: #EDEDED;
-  font-size: 50px;
+  font-size: 20px;
   font-weight: bold;
   font-family: Sitka Heading;
   text-align: center;
@@ -719,7 +746,7 @@ progress {
   font-weight: bold;
   font-family: Sitka Heading;
   color: #EDEDED;
-  position: fixed;
+  position: absolute;
   width: 200px;
   padding-left: 20px;
   padding-top: 20px;
@@ -730,12 +757,19 @@ progress {
   margin-top: 40px;
 }
 
-.p-content--works h3 {
+.p-content--works__title {
   text-align: center;
   color: #144DA0;
   font-size: 30px;
   font-weight: bold;
   font-family: Sitka Heading;
+}
+
+.p-content--works__subtitle {
+  text-align: center;
+  color: #144DA0;
+  font-weight: bold;
+  font-family: BIZ UDP明朝;
 }
 
 .p-content--works--raisetech {
@@ -822,13 +856,20 @@ progress {
   margin-top: 50px;
 }
 
-.p-content--skills h3 {
+.p-content--skills__title {
   text-align: center;
   color: #144DA0;
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 20px;
   font-family: Sitka Heading;
+}
+
+.p-content--skills__subtitle {
+  text-align: center;
+  color: #144DA0;
+  font-weight: bold;
+  font-family: BIZ UDP明朝;
+  margin-bottom: 20px;
 }
 
 .p-content--skills--html__title {
@@ -880,7 +921,7 @@ progress {
   font-size: 20px;
 }
 
-.p-content--skills p {
+.p-content--skills__text {
   font-family: BIZ UDP明朝;
   font-size: 16px;
   color: #101841;
@@ -892,13 +933,20 @@ progress {
   position: relative;
 }
 
-.p-content--about h3 {
+.p-content--about__title {
   text-align: center;
   color: #144DA0;
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 20px;
   font-family: Sitka Heading;
+}
+
+.p-content--about__subtitle {
+  text-align: center;
+  color: #144DA0;
+  font-weight: bold;
+  font-family: BIZ UDP明朝;
+  margin-bottom: 20px;
 }
 
 .p-content--about__img {
@@ -916,7 +964,7 @@ progress {
   position: absolute;
 }
 
-.p-content--about > p {
+.p-content--about__text {
   font-family: BIZ UDP明朝;
   font-size: 16px;
   color: #101841;
@@ -937,13 +985,20 @@ progress {
   margin-top: 40px;
 }
 
-.p-content--price h3 {
+.p-content--price__title {
   text-align: center;
   color: #144DA0;
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 20px;
   font-family: Sitka Heading;
+}
+
+.p-content--price__subtitle {
+  text-align: center;
+  color: #144DA0;
+  font-weight: bold;
+  font-family: BIZ UDP明朝;
+  margin-bottom: 20px;
 }
 
 .p-content--pricetable--coding {
@@ -996,16 +1051,23 @@ progress {
   margin-bottom: 50px;
 }
 
-.p-content--contact h3 {
+.p-content--contact__title {
   text-align: center;
   color: #144DA0;
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 20px;
   font-family: Sitka Heading;
 }
 
-.p-content--contact p {
+.p-content--contact__subtitle {
+  text-align: center;
+  color: #144DA0;
+  font-weight: bold;
+  font-family: BIZ UDP明朝;
+  margin-bottom: 20px;
+}
+
+.p-content--contact__text {
   font-size: 16px;
   color: #101841;
   font-family: BIZ UDP明朝;
@@ -1082,6 +1144,25 @@ progress {
   line-height: 1.875;
 }
 
+.p-content--page__title {
+  text-align: center;
+  font-family: Sitka Heading;
+  font-size: 40px;
+  font-weight: bold;
+  color: #101841;
+  border-bottom: 1px  solid #101841;
+  margin-top: 50px;
+}
+
+.p-content--page__subtitle {
+  text-align: center;
+  font-family: BIZ UDP明朝;
+  font-size: 20px;
+  font-weight: bold;
+  color: #101841;
+  margin-top: 15px;
+}
+
 .p-footer__nav--home > a {
   color: #EDEDED;
   font-family: Sitka Heading;
@@ -1100,5 +1181,50 @@ progress {
   font-family: Sitka Heading;
   font-size: 16px;
   margin-top: 37px;
+}
+
+.p-contactform__item__label {
+  width: 100%;
+  max-width: 250px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: BIZ UDP明朝;
+  color: #101841;
+}
+
+.p-contactform__item__label--required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #144DA0;
+  color: #EDEDED;
+  font-size: 14px;
+}
+
+.p-contactform__item__input {
+  border: 1px solid #101841;
+  border-radius: 6px;
+  height: 30px;
+  width: 100%;
+  max-width: 410px;
+  background: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.p-contactform__item__textarea {
+  border: 1px solid #101841;
+  border-radius: 6px;
+  height: 200px;
+  width: 100%;
+  max-width: 410px;
+  background: #fff;
+  font-size: 18px;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -12,7 +12,8 @@
 .l-header__nav--open{
     width: 100%;
     height: 100%;
-    position: fixed;
+    //position: fixed;
+    position: absolute;
     display: block;
     overflow: hidden;
     z-index: 99;

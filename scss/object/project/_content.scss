@@ -1,12 +1,18 @@
 .p-content--works{
     margin-top: 40px;
 
-    h3{
+    &__title{
         text-align: center;
         color: #144DA0;
         font-size: 30px;
         font-weight: bold;
         font-family: Sitka Heading;
+    }
+    &__subtitle{
+        text-align: center;
+        color: #144DA0;
+        font-weight: bold;
+        font-family:BIZ UDP明朝;
     }
 
     &--raisetech{
@@ -80,13 +86,19 @@
 .p-content--skills{
     margin-top: 50px;
 
-    h3{
+    &__title{
         text-align: center;
-        color: #144DA0; 
+        color: #144DA0;
         font-size: 30px;
         font-weight: bold;
-        margin-bottom: 20px;
         font-family: Sitka Heading;
+    }
+    &__subtitle{
+        text-align: center;
+        color: #144DA0;
+        font-weight: bold;
+        font-family:BIZ UDP明朝;
+        margin-bottom: 20px;
     }
 
     &--html{
@@ -152,7 +164,7 @@
             }
         }
 
-        p{
+        &__text{
             font-family: BIZ UDP明朝;
             font-size: 16px;
             color: #101841;
@@ -164,13 +176,19 @@
     margin-top: 40px;
     position: relative;
 
-    h3{
+    &__title{
         text-align: center;
         color: #144DA0;
         font-size: 30px;
         font-weight: bold;
-        margin-bottom: 20px;
         font-family: Sitka Heading;
+    }
+    &__subtitle{
+        text-align: center;
+        color: #144DA0;
+        font-weight: bold;
+        font-family:BIZ UDP明朝;
+        margin-bottom: 20px;
     }
 
     &__img{
@@ -187,7 +205,7 @@
         position: absolute;
     }
 
-    >p{
+    &__text{
         font-family: BIZ UDP明朝;
         font-size: 16px;
         color: #101841;
@@ -203,13 +221,19 @@
 .p-content--price{
     margin-top: 40px;
 
-    h3{
+    &__title{
         text-align: center;
         color: #144DA0;
         font-size: 30px;
         font-weight: bold;
-        margin-bottom: 20px;
         font-family: Sitka Heading;
+    }
+    &__subtitle{
+        text-align: center;
+        color: #144DA0;
+        font-weight: bold;
+        font-family:BIZ UDP明朝;
+        margin-bottom: 20px;
     }
 }
 
@@ -266,16 +290,21 @@
     margin-top: 40px;
     margin-bottom: 50px;
 
-    h3{
+    &__title{
         text-align: center;
         color: #144DA0;
         font-size: 30px;
         font-weight: bold;
-        margin-bottom: 20px;
         font-family: Sitka Heading;
     }
-
-    p{
+    &__subtitle{
+        text-align: center;
+        color: #144DA0;
+        font-weight: bold;
+        font-family:BIZ UDP明朝;
+        margin-bottom: 20px;
+    }
+    &__text{
         font-size: 16px;
         color: #101841;
         font-family: BIZ UDP明朝;
@@ -357,5 +386,25 @@
         color: #101841;
         font-family: BIZ UDP明朝;
         line-height: 1.875;
+    }
+}
+
+.p-content--page{
+    &__title{
+        text-align: center;
+        font-family: Sitka Heading;
+        font-size: 40px;
+        font-weight: bold;
+        color: #101841;
+        border-bottom: 1px  solid #101841;
+        margin-top: 50px;
+    }
+    &__subtitle{
+        text-align: center;
+        font-family: BIZ UDP明朝;
+        font-size: 20px;
+        font-weight: bold;
+        color: #101841;
+        margin-top: 15px;
     }
 }

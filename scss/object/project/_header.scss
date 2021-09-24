@@ -88,17 +88,17 @@
 .p-header__title{
     position: absolute;
     text-align: center;
-    color: rgba(237,237,237,.5);
+    color:#EDEDED;
     font-size: 100px;
     font-family: Sitka Heading;
     line-height: 0.4;
-    top:100px
+    top:40%;
 }
 .p-header__subtitle{
     position: absolute;
-    top: 250px;
+    top:58%;
     color:#EDEDED;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: bold;
     font-family: Sitka Heading;
     text-align: center;
@@ -109,7 +109,7 @@
     font-weight: bold;
     font-family: Sitka Heading;
     color: #EDEDED;
-    position: fixed;
+    position: absolute;
     width: 200px;
     padding-left: 20px;
     padding-top: 20px;
