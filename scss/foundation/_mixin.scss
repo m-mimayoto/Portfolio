@@ -1,0 +1,123 @@
+@mixin button {
+    display: block;
+    background-color: #144DA0;
+    border-radius:30px;
+}
+
+@mixin  icon {
+    background-color: #fff;
+    border-radius:50%;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    justify-content: center;
+}
+
+@mixin title {
+    text-align: center;
+    color: #144DA0;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Sitka Heading;
+}
+
+@mixin subtitle {
+    text-align: center;
+    color: #144DA0;
+    font-weight: bold;
+    font-family:BIZ UDP明朝;
+    margin-bottom: 20px;
+}
+
+@mixin  works-img {
+    height: 223px;
+    object-fit: cover;
+    object-position: top;
+    cursor: pointer;
+}
+
+@mixin works-mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;	
+    top: 0;
+    left: 0;
+    opacity: 0;	/* マスクを表示しない */
+    background-color:rgba(0,0,0,0.4);
+    transition:	all 0.2s ease;
+}
+
+@mixin works-title {
+    color: #fff;
+    text-align: center;
+    font-family: Sitka Heading;
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+}
+
+@mixin  skills-title {
+    color: #101841;
+    text-align: center;
+    font-family: Sitka Heading;
+    font-size: 20px;
+}
+
+@mixin  text {
+    font-family: BIZ UDP明朝;
+    font-size: 16px;
+    color: #101841;
+    line-height: 1.875;
+}
+
+@mixin pricetable-title {
+    font-size: 20px;
+    color: #101841;
+    font-family: BIZ UDP明朝;
+    margin-bottom: 20px;
+}
+
+@mixin  pricetable-text {
+    font-size: 16px;
+    color: #101841;
+    font-family: BIZ UDP明朝;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #101841;
+}
+
+@mixin title2 {//page.single
+    text-align: center;
+    font-family: Sitka Heading;
+    font-size: 40px;
+    font-weight: bold;
+    color: #101841;
+    border-bottom: 1px  solid #101841;
+    margin-top: 50px;
+}
+
+@mixin subtitle2 {//page.single
+    text-align: center;
+    font-family: BIZ UDP明朝;
+    font-size: 20px;
+    font-weight: bold;
+    color: #101841;
+    margin-top: 15px;
+}
+
+@mixin footer {
+    color: #EDEDED;
+    font-family: Sitka Heading;
+    font-size: 16px;
+}
+
+@mixin header-nav-a {
+    color: #EDEDED;
+    font-family: Sitka Heading;
+    font-size: 20px;
+}
+
+@mixin  header-nav {
+    height: 60px;
+    text-align: center;
+    padding-top: 22px;
+}

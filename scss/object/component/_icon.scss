@@ -4,24 +4,14 @@
     margin-top: 25px;
 
     &--twitter{
-        background-color: #fff;
-        border-radius:50%;
-        width: 90px;
-        height: 90px;
-        text-align: center;
-        justify-content: center;
+        @include icon;
     }
     .fa-twitter{
         color: #55ACEE;
     }
 
     &--facebook{
-        background-color: #fff;
-        border-radius:50%;
-        width: 90px;
-        height: 90px;
-        text-align: center;
-        justify-content: center;
+        @include icon;
         margin-left: 15.5px;
         margin-right: 15.5px;
     }
@@ -30,12 +20,7 @@
     }
 
     &--github{
-        background-color: #fff;
-        border-radius:50%;
-        width: 90px;
-        height: 90px;
-        text-align: center;
-        justify-content: center;
+        @include icon;
     }
     .fa-github{
         color: #000000;

@@ -4,25 +4,44 @@
     min-height: 100vh;//画面サイズに合わせる
     background-position: center top;
     background-size: cover;
+
+    &__nav{
+        display: none;
+        position:fixed;
+        z-index: 99;
+        left:0;
+        width:100%;
+        height: 100vh;/*ナビの高さ*/
+        background:#101841 ;
+        transition: all 0.6s;
+    }
+
+    &__nav--open{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: block;
+        overflow: hidden;
+        z-index: 99;
+        background-color:#101841;
+    }
 }
 
-.l-header__nav{
-    display: none;
-}
-.l-header__nav--open{
-    width: 100%;
-    height: 100%;
-    //position: fixed;
+.l-header__nav__list{
     position: absolute;
-    display: block;
-    overflow: hidden;
     z-index: 99;
-    background-color:#101841;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 
-    .l-header__nav__list{
-        display: flex;
-        flex-direction: column;
-        margin-top: 70px;
+    &>a{
+        color: #333;
+        text-decoration: none;
+        padding:10px;
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-weight: bold;
     }
 }
 

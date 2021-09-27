@@ -1,56 +1,36 @@
 .p-header__nav__list{
 
     &--works>a{
-        color: #EDEDED;
-        font-family: Sitka Heading;
-        font-size: 20px;
+        @include header-nav-a;
     }
     &--works{
-       height: 60px;
-       text-align: center;
-       padding-top: 22px;
+       @include header-nav;
     }
     &--skills>a{
-        color: #EDEDED;
-        font-family: Sitka Heading;
-        font-size: 20px;
+       @include header-nav-a;
     }
     &--skills{
-       height: 60px;
-       text-align: center;
-       padding-top: 22px;
+        @include header-nav;
     }
     &--about>a{
-        color: #EDEDED;
-        font-family: Sitka Heading;
-        font-size: 20px;
+        @include header-nav-a;
     }
     &--about{
-       height: 60px;
-       text-align: center;
-       padding-top: 22px;
+        @include header-nav;
 
     }
     &--price>a{
-        color: #EDEDED;
-        font-family: Sitka Heading;
-        font-size: 20px;
+        @include header-nav-a;
     }
     &--price{
-       height: 60px;
-       text-align: center;
-       padding-top: 22px;
+        @include header-nav;
 
     }
     &--contact>a{
-        color: #EDEDED;
-        font-family: Sitka Heading;
-        font-size: 20px;
+        @include header-nav-a;
     }
     &--contact{
-       height: 60px;
-       text-align: center;
-       padding-top: 22px;
+        @include header-nav;
     }
 }
 .p-header__nav__list--works:hover{
