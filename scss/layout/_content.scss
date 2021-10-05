@@ -1,6 +1,15 @@
 .l-content__waraper{
     padding-left: 36px;
     padding-right: 36px;
+
+    @media screen and (min-width : 600px){
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    @media screen and (min-width : 1025px){
+        padding-left: 140px;
+        padding-right: 140px;
+    }
 }
 
 .l-content__img--skills{
@@ -8,4 +17,17 @@
     grid-template-columns: 30% 30% 30%;
     gap: 18px;
     margin-bottom: 30px;
+
+    @media screen and (min-width : 600px){
+        row-gap: 80px;
+    }
+    @media screen and (min-width : 1025px){
+        column-gap: 35px;
+    }
+}
+
+@media screen and (min-width : 600px){
+    .l-content--about{
+        display: flex;
+    }
 }

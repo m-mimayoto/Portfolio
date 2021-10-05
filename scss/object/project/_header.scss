@@ -72,17 +72,33 @@
     font-size: 100px;
     font-family: Sitka Heading;
     line-height: 0.4;
-    top:40%;
+    top:30vh;
+
+    @media screen and (min-width : 600px){
+        font-size: 120px;
+    }
+    @media screen and (min-width : 1025px){
+        font-size: 150px;
+    }
 }
 .p-header__subtitle{
     position: absolute;
-    top:58%;
+    top:45vh;
     color:#EDEDED;
     font-size: 20px;
     font-weight: bold;
     font-family: Sitka Heading;
     text-align: center;
+
+    @media screen and (min-width : 600px){
+        font-size: 30px;
+    }
+    @media screen and (min-width : 1025px){
+        font-size: 40px;
+        top:50vh;
+    }
 }
+
 
 .p-header__title--single{
     font-size: 20px;

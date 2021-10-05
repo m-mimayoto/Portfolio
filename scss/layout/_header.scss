@@ -33,16 +33,6 @@
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-
-    &>a{
-        color: #333;
-        text-decoration: none;
-        padding:10px;
-        display: block;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        font-weight: bold;
-    }
 }
 
 .l-header--single::before{//三角

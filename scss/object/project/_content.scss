@@ -8,6 +8,12 @@
         @include subtitle;
     }
 
+    &__flex{
+        @media screen and (min-width : 1025px){
+            display: flex;
+        }
+    }
+
     &--raisetech{
         position: relative;
 
@@ -25,6 +31,14 @@
     &--hamburgermenu{
         margin-top: 20px;
         position: relative;
+
+        @media screen and (min-width : 600px){
+            margin-top: 40px;
+        }
+        @media screen and (min-width : 1025px){
+            margin-top: 0;
+            margin-left: 40px;
+        }
 
         &__img{
             @include works-img;
@@ -46,7 +60,13 @@
 
 
 .p-content--skills{
-    margin-top: 50px;
+    margin-top: 40px;
+    @media screen and (min-width : 600px){
+        margin-top: 80px;
+    }
+    @media screen and (min-width : 1025px){
+        margin-top: 100px;
+    }
 
     &__title{
         @include title;
@@ -56,36 +76,43 @@
     }
 
         &--html{
+           @include skills;
             &__title{
                 @include skills-title;
             }
         }
         &--css{
+            @include skills;
             &__title{
                 @include skills-title;
             }
         }
         &--sass{
+            @include skills;
             &__title{
                 @include skills-title;
             }
         }
         &--cssdesign{
+            @include skills;
             &__title{
                 @include skills-title;
             }
         }
         &--wordpress{
+            @include skills;
             &__title{
                 @include skills-title;
             }
         }
         &--git{
+            @include skills;
             &__title{
                 @include skills-title;
             }
         }
         &--js{
+            @include skills;
             &__title{
                 @include skills-title;
             }
@@ -98,6 +125,13 @@
 .p-content--about{
     margin-top: 40px;
     position: relative;
+    
+    @media screen and (min-width : 600px){
+        margin-top: 80px;
+    }
+    @media screen and (min-width : 1025px){
+        margin-top: 100px;
+    }
 
     &__title{
         @include title;
@@ -108,14 +142,24 @@
     &__img{
         cursor: pointer;
         filter: grayscale(100%);
+        @media screen and (min-width : 600px){
+            width: 50%;
+            height: 50%;
+        }
     }
     &__profile{
         font-size: 20px;
         color: #101841;
         font-family: Sitka Heading;
         margin-top: -105px;
-        padding-left: 75px;
+        right: 0;
         position: absolute;
+
+        @media screen and (min-width : 600px){
+            position: static;
+            padding-top: 50%;
+            margin-left: 35px;
+        }
     }
     &__text{
         @include text;
@@ -130,6 +174,10 @@
 
 .p-content--price{
     margin-top: 40px;
+
+    @media screen and (min-width : 600px){
+        margin-top: 80px;
+    }
 
     &__title{
         @include title;
@@ -171,6 +219,11 @@
     margin-top: 40px;
     margin-bottom: 50px;
 
+    @media screen and (min-width : 600px){
+        margin-top: 80px;
+        margin-bottom: 70px;
+    }
+
     &__title{
         @include title;
     }
@@ -208,13 +261,17 @@
         }
     }
     .p-content--single--iphone{
+        text-align: center;
         &__title{
             @include title;
             margin-top: 30px;
             margin-bottom: 20px;
         }
         &__img{
-
+            width: 300px;
+            height: 600px;
+            object-fit: cover;
+            object-position: top;
         }
     }
 }
