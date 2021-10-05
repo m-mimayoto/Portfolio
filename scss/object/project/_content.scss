@@ -156,14 +156,22 @@
         position: absolute;
 
         @media screen and (min-width : 600px){
-            position: static;
             padding-top: 50%;
-            margin-left: 35px;
+        }
+        @media screen and (min-width : 1025px){
+            font-size: 30px;
+            padding-top: 45%;
         }
     }
     &__text{
         @include text;
         margin-top: 20px;
+
+        @media screen and (min-width : 600px){
+            padding-left: 30px;
+            margin-top: 50px;
+            overflow: hidden;
+        }
     }
 }
 
@@ -177,6 +185,9 @@
 
     @media screen and (min-width : 600px){
         margin-top: 80px;
+    }
+    @media screen and (min-width : 1025px){
+        margin-top: 100px;
     }
 
     &__title{
@@ -223,6 +234,10 @@
         margin-top: 80px;
         margin-bottom: 70px;
     }
+    @media screen and (min-width : 1025px){
+        margin-top: 100px;
+        margin-bottom: 90px;
+    }
 
     &__title{
         @include title;
@@ -247,17 +262,49 @@
 .p-content--single--size{
     margin-bottom: 50px;
     .p-content--single--pc{
+        text-align: center;
         &__title{
             @include title;
             margin-top: 35px;
             margin-bottom: 20px;
+
+            @media screen and (min-width : 600px){
+                margin-top: 80px;
+                margin-bottom: 30px;
+            }
+            @media screen and (min-width : 1025px){
+                margin-top: 100px;
+                margin-bottom: 40px;
+            }
+        }
+        &__img{
+            max-width: 745px;
+            max-height: 381px;
+            object-fit: cover;
+            object-position: top;
         }
     }
     .p-content--single--ipad{
+        text-align: center;
         &__title{
             @include title;
             margin-top: 30px;
             margin-bottom: 20px;
+
+            @media screen and (min-width : 600px){
+                margin-top: 80px;
+                margin-bottom: 30px;
+            }
+            @media screen and (min-width : 1025px){
+                margin-top: 100px;
+                margin-bottom: 40px;
+            }
+        }
+        &__img{
+            max-width: 600px;
+            max-height: 650px;
+            object-fit: cover;
+            object-position: top;
         }
     }
     .p-content--single--iphone{
@@ -266,10 +313,19 @@
             @include title;
             margin-top: 30px;
             margin-bottom: 20px;
+
+            @media screen and (min-width : 600px){
+                margin-top: 80px;
+                margin-bottom: 30px;
+            }
+            @media screen and (min-width : 1025px){
+                margin-top: 100px;
+                margin-bottom: 40px;
+            }
         }
         &__img{
-            width: 300px;
-            height: 600px;
+            max-width: 300px;
+            max-height: 600px;
             object-fit: cover;
             object-position: top;
         }

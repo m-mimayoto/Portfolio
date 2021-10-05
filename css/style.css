@@ -533,8 +533,7 @@ progress {
 
 .l-contactform {
   margin-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
 .l-contactform__item {
@@ -556,7 +555,7 @@ progress {
 
 @media screen and (min-width: 600px) {
   .c-button--contact {
-    max-width: 450px;
+    max-width: 1000px;
   }
 }
 
@@ -648,8 +647,15 @@ progress {
 
 @media screen and (min-width: 600px) {
   .c-icon--contact--facebook {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .c-icon--contact--facebook {
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
 
@@ -1384,6 +1390,13 @@ progress {
   line-height: 1.875;
 }
 
+@media screen and (min-width: 1025px) {
+  .p-content--skills__text {
+    font-size: 20px;
+    line-height: 2;
+  }
+}
+
 .p-content--about {
   margin-top: 40px;
   position: relative;
@@ -1467,9 +1480,14 @@ progress {
 
 @media screen and (min-width: 600px) {
   .p-content--about__profile {
-    position: static;
     padding-top: 50%;
-    margin-left: 35px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--about__profile {
+    font-size: 30px;
+    padding-top: 45%;
   }
 }
 
@@ -1479,6 +1497,21 @@ progress {
   color: #101841;
   line-height: 1.875;
   margin-top: 20px;
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--about__text {
+    font-size: 20px;
+    line-height: 2;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .p-content--about__text {
+    padding-left: 30px;
+    margin-top: 50px;
+    overflow: hidden;
+  }
 }
 
 .p-content--about:hover img {
@@ -1497,6 +1530,12 @@ progress {
 @media screen and (min-width: 600px) {
   .p-content--price {
     margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--price {
+    margin-top: 100px;
   }
 }
 
@@ -1560,6 +1599,13 @@ progress {
   }
 }
 
+@media screen and (min-width: 1025px) {
+  .p-content--pricetable--coding h4 {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+}
+
 .p-content--pricetable--coding p {
   font-size: 16px;
   color: #101841;
@@ -1572,6 +1618,13 @@ progress {
   .p-content--pricetable--coding p {
     font-size: 20px;
     margin-bottom: 23px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--pricetable--coding p {
+    font-size: 30px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1593,6 +1646,13 @@ progress {
   }
 }
 
+@media screen and (min-width: 1025px) {
+  .p-content--pricetable--wordpress h4 {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+}
+
 .p-content--pricetable--wordpress p {
   font-size: 16px;
   color: #101841;
@@ -1608,11 +1668,25 @@ progress {
   }
 }
 
+@media screen and (min-width: 1025px) {
+  .p-content--pricetable--wordpress p {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+}
+
 .p-content--pricetable--note p {
   font-family: BIZ UDP明朝;
   font-size: 16px;
   color: #101841;
   line-height: 1.875;
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--pricetable--note p {
+    font-size: 20px;
+    line-height: 2;
+  }
 }
 
 .p-content--contact {
@@ -1624,6 +1698,13 @@ progress {
   .p-content--contact {
     margin-top: 80px;
     margin-bottom: 70px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--contact {
+    margin-top: 100px;
+    margin-bottom: 90px;
   }
 }
 
@@ -1677,6 +1758,13 @@ progress {
   text-align: center;
 }
 
+@media screen and (min-width: 1025px) {
+  .p-content--contact__text {
+    font-size: 20px;
+    line-height: 2;
+  }
+}
+
 .p-content--single__title {
   text-align: center;
   font-family: Sitka Heading;
@@ -1690,6 +1778,12 @@ progress {
 @media screen and (min-width: 600px) {
   .p-content--single__title {
     font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--single__title {
+    font-size: 80px;
   }
 }
 
@@ -1709,8 +1803,19 @@ progress {
   }
 }
 
+@media screen and (min-width: 1025px) {
+  .p-content--single__subtitle {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+}
+
 .p-content--single--size {
   margin-bottom: 50px;
+}
+
+.p-content--single--size .p-content--single--pc {
+  text-align: center;
 }
 
 .p-content--single--size .p-content--single--pc__title {
@@ -1735,6 +1840,33 @@ progress {
   }
 }
 
+@media screen and (min-width: 600px) {
+  .p-content--single--size .p-content--single--pc__title {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--single--size .p-content--single--pc__title {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+}
+
+.p-content--single--size .p-content--single--pc__img {
+  max-width: 745px;
+  max-height: 381px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.p-content--single--size .p-content--single--ipad {
+  text-align: center;
+}
+
 .p-content--single--size .p-content--single--ipad__title {
   text-align: center;
   color: #144DA0;
@@ -1755,6 +1887,29 @@ progress {
   .p-content--single--size .p-content--single--ipad__title {
     font-size: 70px;
   }
+}
+
+@media screen and (min-width: 600px) {
+  .p-content--single--size .p-content--single--ipad__title {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--single--size .p-content--single--ipad__title {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+}
+
+.p-content--single--size .p-content--single--ipad__img {
+  max-width: 600px;
+  max-height: 650px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
 .p-content--single--size .p-content--single--iphone {
@@ -1783,9 +1938,23 @@ progress {
   }
 }
 
+@media screen and (min-width: 600px) {
+  .p-content--single--size .p-content--single--iphone__title {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--single--size .p-content--single--iphone__title {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+}
+
 .p-content--single--size .p-content--single--iphone__img {
-  width: 300px;
-  height: 600px;
+  max-width: 300px;
+  max-height: 600px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;
@@ -1820,6 +1989,13 @@ progress {
   line-height: 1.875;
 }
 
+@media screen and (min-width: 1025px) {
+  .p-content--single--details__text {
+    font-size: 20px;
+    line-height: 2;
+  }
+}
+
 .p-content--page__title {
   text-align: center;
   font-family: Sitka Heading;
@@ -1836,6 +2012,12 @@ progress {
   }
 }
 
+@media screen and (min-width: 1025px) {
+  .p-content--page__title {
+    font-size: 80px;
+  }
+}
+
 .p-content--page__subtitle {
   text-align: center;
   font-family: BIZ UDP明朝;
@@ -1849,6 +2031,13 @@ progress {
   .p-content--page__subtitle {
     font-size: 30px;
     margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--page__subtitle {
+    font-size: 40px;
+    margin-top: 30px;
   }
 }
 
@@ -1885,6 +2074,7 @@ progress {
   font-size: 18px;
   font-family: BIZ UDP明朝;
   color: #101841;
+  text-align: initial;
 }
 
 .p-contactform__item__label--required {
@@ -1905,7 +2095,7 @@ progress {
   border-radius: 6px;
   height: 30px;
   width: 100%;
-  max-width: 410px;
+  max-width: 600px;
   background: #fff;
   font-size: 18px;
   margin-top: 20px;
@@ -1916,7 +2106,7 @@ progress {
   border-radius: 6px;
   height: 200px;
   width: 100%;
-  max-width: 410px;
+  max-width: 600px;
   background: #fff;
   font-size: 18px;
   margin-top: 20px;
