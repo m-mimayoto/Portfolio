@@ -484,12 +484,16 @@ progress {
   display: grid;
   -ms-grid-columns: 30% 30% 30%;
       grid-template-columns: 30% 30% 30%;
-  gap: 18px;
-  margin-bottom: 30px;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  row-gap: 50px;
+  margin-bottom: 70px;
 }
 
 @media screen and (min-width: 600px) {
   .l-content__img--skills {
+    -webkit-column-gap: 18px;
+            column-gap: 18px;
     row-gap: 80px;
   }
 }
@@ -533,7 +537,9 @@ progress {
 
 .l-contactform {
   margin-top: 60px;
-  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .l-contactform__item {
@@ -604,6 +610,7 @@ progress {
   width: 170px;
   color: #EDEDED;
   font-weight: bold;
+  font-family: BIZ UDP明朝;
   font-size: 20px;
 }
 
@@ -882,13 +889,14 @@ progress {
 @media screen and (min-width: 600px) {
   .p-header__subtitle {
     font-size: 30px;
+    top: 50vh;
   }
 }
 
 @media screen and (min-width: 1025px) {
   .p-header__subtitle {
     font-size: 40px;
-    top: 50vh;
+    top: 55vh;
   }
 }
 
@@ -1180,12 +1188,17 @@ progress {
   }
 }
 
+.p-content--skills--html {
+  width: 75px;
+  height: 97.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 600px) {
   .p-content--skills--html {
     width: 110px;
-    height: 133px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 143px;
   }
 }
 
@@ -1201,6 +1214,7 @@ progress {
   text-align: center;
   font-family: Sitka Heading,BIZ UDP明朝;
   font-size: 20px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {
@@ -1209,12 +1223,17 @@ progress {
   }
 }
 
+.p-content--skills--css {
+  width: 75px;
+  height: 97.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 600px) {
   .p-content--skills--css {
     width: 110px;
-    height: 133px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 143px;
   }
 }
 
@@ -1230,6 +1249,7 @@ progress {
   text-align: center;
   font-family: Sitka Heading,BIZ UDP明朝;
   font-size: 20px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {
@@ -1238,12 +1258,17 @@ progress {
   }
 }
 
+.p-content--skills--sass {
+  width: 75px;
+  height: 97.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 600px) {
   .p-content--skills--sass {
     width: 110px;
-    height: 133px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 143px;
   }
 }
 
@@ -1259,6 +1284,7 @@ progress {
   text-align: center;
   font-family: Sitka Heading,BIZ UDP明朝;
   font-size: 20px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {
@@ -1267,12 +1293,17 @@ progress {
   }
 }
 
+.p-content--skills--cssdesign {
+  width: 75px;
+  height: 97.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 600px) {
   .p-content--skills--cssdesign {
     width: 110px;
-    height: 133px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 143px;
   }
 }
 
@@ -1288,6 +1319,7 @@ progress {
   text-align: center;
   font-family: Sitka Heading,BIZ UDP明朝;
   font-size: 20px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {
@@ -1296,12 +1328,17 @@ progress {
   }
 }
 
+.p-content--skills--wordpress {
+  width: 75px;
+  height: 97.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 600px) {
   .p-content--skills--wordpress {
     width: 110px;
-    height: 133px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 143px;
   }
 }
 
@@ -1317,6 +1354,7 @@ progress {
   text-align: center;
   font-family: Sitka Heading,BIZ UDP明朝;
   font-size: 20px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {
@@ -1325,12 +1363,17 @@ progress {
   }
 }
 
+.p-content--skills--git {
+  width: 75px;
+  height: 97.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 600px) {
   .p-content--skills--git {
     width: 110px;
-    height: 133px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 143px;
   }
 }
 
@@ -1346,6 +1389,7 @@ progress {
   text-align: center;
   font-family: Sitka Heading,BIZ UDP明朝;
   font-size: 20px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {
@@ -1354,12 +1398,17 @@ progress {
   }
 }
 
+.p-content--skills--js {
+  width: 75px;
+  height: 97.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 600px) {
   .p-content--skills--js {
     width: 110px;
-    height: 133px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 143px;
   }
 }
 
@@ -1375,6 +1424,7 @@ progress {
   text-align: center;
   font-family: Sitka Heading,BIZ UDP明朝;
   font-size: 20px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {
@@ -1473,6 +1523,7 @@ progress {
   font-size: 20px;
   color: #101841;
   font-family: Sitka Heading;
+  font-weight: bold;
   margin-top: -105px;
   right: 0;
   position: absolute;
@@ -1590,6 +1641,7 @@ progress {
   color: #101841;
   font-family: BIZ UDP明朝;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {
@@ -1637,6 +1689,7 @@ progress {
   color: #101841;
   font-family: BIZ UDP明朝;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {
@@ -1961,13 +2014,28 @@ progress {
      object-position: top;
 }
 
+.p-content--single--details {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 600px) {
+  .p-content--single--details {
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--single--details {
+    margin-bottom: 90px;
+  }
+}
+
 .p-content--single--details__title {
   text-align: center;
   color: #144DA0;
   font-size: 30px;
   font-weight: bold;
   font-family: Sitka Heading;
-  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 600px) {
@@ -1979,6 +2047,43 @@ progress {
 @media screen and (min-width: 1025px) {
   .p-content--single--details__title {
     font-size: 70px;
+  }
+}
+
+.p-content--single--details__subtitle {
+  text-align: center;
+  color: #144DA0;
+  font-weight: bold;
+  font-family: BIZ UDP明朝;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .p-content--single--details__subtitle {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--single--details__subtitle {
+    font-size: 40px;
+    margin-bottom: 80px;
+  }
+}
+
+.p-content--single--details__text span {
+  font-family: BIZ UDP明朝;
+  font-size: 16px;
+  color: #101841;
+  line-height: 1.875;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1025px) {
+  .p-content--single--details__text span {
+    font-size: 20px;
+    line-height: 2;
   }
 }
 

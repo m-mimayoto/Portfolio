@@ -95,11 +95,13 @@
 }
 
 @mixin skills {
+    width: 75px;
+    height: 97.5px;
+    margin-left: auto;
+    margin-right: auto;
     @media screen and (min-width : 600px){
         width: 110px;
-        height: 133px;
-        margin-left: auto;
-        margin-right: auto;
+        height: 143px;
     }
     @media screen and (min-width : 1025px){
     width: 150px;
@@ -112,6 +114,7 @@
     text-align: center;
     font-family: Sitka Heading,BIZ UDP明朝;
     font-size: 20px;
+    font-weight: bold;
 
     @media screen and (min-width : 600px){
         font-size: 30px;
@@ -135,6 +138,7 @@
     color: #101841;
     font-family: BIZ UDP明朝;
     margin-bottom: 20px;
+    font-weight: bold;
 
     @media screen and (min-width : 600px){
         font-size: 30px;

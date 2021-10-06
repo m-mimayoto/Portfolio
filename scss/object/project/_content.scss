@@ -151,6 +151,7 @@
         font-size: 20px;
         color: #101841;
         font-family: Sitka Heading;
+        font-weight: bold;
         margin-top: -105px;
         right: 0;
         position: absolute;
@@ -333,9 +334,24 @@
 }
 
 .p-content--single--details{
+    margin-bottom: 50px;
+
+    @media screen and (min-width : 600px){
+        margin-bottom: 70px;
+    }
+    @media screen and (min-width : 1025px){
+        margin-bottom: 90px;
+    }
+
     &__title{
        @include title;
-        margin-bottom: 20px;
+    }
+    &__subtitle{
+        @include subtitle;
+    }
+    &__text span{
+        @include text;
+        font-weight: bold;
     }
     &__text{
         @include text;
